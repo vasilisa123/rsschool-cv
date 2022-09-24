@@ -1,0 +1,128 @@
+body {
+    height: 100%;
+    background-color: rgb(163, 162, 162);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+a {
+    color: black;
+}
+a:active {
+    color: aquamarine;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+
+}
+.img_photo {
+    width: 200px;
+    height: 250px;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 150px;
+}
+.navigation {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.nav_list {
+    display: flex;
+    padding: 0px;
+
+}
+.nav_item {
+    list-style-type: none;
+    background-color:rgb(163, 162, 162);
+    border: solid rgb(0, 0, 0);
+    padding: 2px;
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+}
+.name {
+    display: flex;
+    justify-content:  center;
+}
+
+
+/*---------------------------*/
+
+.cont1 {
+    width: 100%;
+    display: flex;
+}
+.contacts {
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+}
+.list {
+    padding: 0;
+}
+.about {
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*---------------------------*/
+
+.cont2 {
+    display: flex;
+}
+.skills {
+    width: 25%;
+    padding: 5px;
+    margin: 5px;
+}
+
+/*---------------------------*/
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+
+.git {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: white;
+}
+.gitlogoimg {
+    width: 50px;
+    height: 50px;
+}
+
+.rslogo {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+}
+.rslogoimg {
+    width: 50px;
+    height: 50px;
+}
